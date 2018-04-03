@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style>
+  body {
+    padding: 50px;
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #121212;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+</style>
+<title>CS 184 Project Proposal</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+
+<h1 align="middle">2D Fluid Simulation Project</h1>
+<h2 align="middle">Tony Pan - 26038149
+<br>Gordon Jake Kole - 26856110
+<br>Jacob Fix - 25386385</h2>
+
+<br>
+
+<h2 align="middle">Summary</h2>
+<p>
+  This project will be a 2D fluid dynamics simulation, using the Navier-Stokes equations to approximate the behavior of
+  homogenous incompressible fluids. Physics calculations will be performed on the GPU, through GLSL fragment shaders.
+  Our end goal is to create an interactive real-time 2D simulation of fluids.
+</p>
+
+<br>
+
+<h2 align="middle">Problem Description</h2>
+<p>
+    In this project, we are trying to solve the problem of rendering realistic fluids in a 2D space. The challenge will be graphically capturing the
+    natural diffusion of a fluid based on its viscosity, as well as its interaction with other fluids. We will solve this by using the GLSL fragment
+    shaders introduced in Project 3-2.
+</p>
+
+<br>
+
+<h2 align="middle">Goals/Deliverables</h2>
+<p>
+  What we will deliver is an interactive demo showcasing fluid physics. It will consist of a rectangular canvas that starts off
+  completely empty. Upon clicking the mouse cursor in the canvas, fluid will be inserted at that point on the canvas. The fluid
+  will move around according to the Navier-Stokes equations. You will be able to click around and watch the fluid mix, until you
+  get tired of watching the same thing too long, in which case you can reset the demo so it is empty once again.
+</p>
+<o>
+  If for any reason we are ahead of schedule, there are other elements that we would like to add on to the demo. First off,
+  adding different colors (toggleable using the keyboard) would help the demo be more artistically pleasing. If we have a lot of
+  extra time, then we could also add in a key that would insert solid objects that the fluid would have to move around. Other
+  possibilities could be explored as well, such as experimenting with fluids of varying density.
+</p>
+
+<br>
+
+<h2 align="middle">Schedule</h2>
+<p>
+Week 1 - Begin project! Be able to display the canvas and record mouse and keyboard inputs. <br>
+Week 2 - Add fluids using mouse. Should be able to see fluids, but they shouldn't move yet. <br>
+Week 3 - Allow fluids to move using the Navier-Stokes equations. Finish and submit milestone deliverables. <br>
+Week 4 - Debug and polish up the demo. <br>
+</p>
+
+<br>
+
+<h2 align="middle">Resources</h2>
+<a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations#Application_to_specific_problems">Information on the Navier-Stokes equations</a>
+<br>
+<p>
+This project will be developed on standard computing platforms (Linux, Windows, macOS) and the demo will be run on Google Chrome.
+</p>
+
+
+</div>
+</body>
+</html>
